@@ -1,0 +1,61 @@
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  padding: 20px 20px; /* Increased padding for top and bottom */
+  height: 80px; /* Increased height */
+  font-size: 1.4em; /* Increased font size */
+}
+
+/* Logo and Shopper text */
+.nav-logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.4em; /* Increased font size */
+  font-weight: bold; /* Increased font weight */
+  font-family: cursive;
+}
+
+.nav-logo img {
+  width: 50px; /* Adjusted width */
+  margin-right: 15px; /* Adjusted margin */
+}
+
+/* Navigation Menu */
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 30px; /* Increased gap */
+  font-size: 1.2em; /* Increased font size */
+}
+
+.nav-menu li {
+  cursor: pointer;
+}
+
+.nav-menu hr {
+  height: 4px; /* Increased height */
+  border-radius: 10px;
+  background: #FF4141;
+  margin-top: 8px; /* Adjusted margin */
+}
+
+/* Login button and Cart icon */
+.nav-login-cart button {
+  padding: 10px 20px; /* Increased padding */
+  font-size: 24px; /* Increased font size */
+  border: none;
+  border-radius: 50px; /* Adjusted border-radius */
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 15px; /* Adjusted margin */
+}
+
+.nav-login-cart img {
+  width: 40px; /* Adjusted width */
+  cursor: pointer;
+}
+
+  
